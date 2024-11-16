@@ -14,3 +14,10 @@ Passo | Comando | Descrição
 7 | Digite seu nome de usuário e senha do GitHub, se solicitado | Faça login no GitHub
 8 | Faça login no GitHub, se necessário | As alterações devem aparecer no seu repositório no GitHub
 
+*Agora estamos na branch nova*
+
+Passo a passo para criar uma branch e, em seguida, subir o código para essa branch em um repositório no GitHub:
+Passo | Comando | Descrição
+1 | git checkout -b nome_da_branch | Cria e muda para uma nova branch
+
+
