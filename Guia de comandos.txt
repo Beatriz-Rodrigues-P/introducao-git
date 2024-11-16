@@ -1,0 +1,16 @@
+Comandos passo a passo para configurar seu Git Dash:
+Passo | Comando | Descrição
+1 | git config --global user.name "Seu Nome" | Informa o seu nome
+2| git config --global user.email "email@email.com" | Informa seu e-mail
+
+Comandos passo a passo para subir (push) um código para um repositório no GitHub:
+Passo | Comando | Descrição
+1 | git init | Inicializa um repositório Git local
+2 | git add . ou git add nome_do_arquivo | Adiciona as alterações ao índice
+3 | git commit -m "Sua mensagem de commit" | Cria um commit com mensagem descritiva
+4 | git branch -M main | Renomeia a branch principal (opcional)
+5 | git remote add origin URL_DO_REPOSITORIO | Adiciona o repositório remoto como origem
+6 | git push -u origin main ou git push -u origin nome_da_sua_branch | Envia o código para o GitHub
+7 | Digite seu nome de usuário e senha do GitHub, se solicitado | Faça login no GitHub
+8 | Faça login no GitHub, se necessário | As alterações devem aparecer no seu repositório no GitHub
+
